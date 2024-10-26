@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/5831b8626a.js" crossorigin="anonymous"></script>
+
+    <!-- ========= Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <!-- ========= Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Judson:ital,wght@0,400;0,700;1,400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/5831b8626a.js" crossorigin="anonymous"></script>
+
+    <!-- =========== Swiper JS -->
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+  />
+    <!-- ========== Bootstrap5 CDN  -->
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Daniel's FSD Porfolio</title>
+</head>
+<body>
+    <!-- ========= Navigation Section -->
+    <nav class="navbar" id="navbar">
+        <li class="logo">
+            <a href="./index.html">FSD</a>
+        </li>
+        <input type="checkbox" id="check">
+        <span class="menu">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <label for="check" class="close-menu">
+                <i class="fa-solid fa-x"></i>
+            </label>
+        </span>
+        <label for="check" class="open-menu">
+            <i class="fa-solid fa-bars"></i>
+        </label>
+    </nav>
+
+     <!-- ========= Header Section -->
+    <header class="header_content">
+        <img src="/assets/newbg.jpg" />
+        <h1 class="header_title">Full-Stack Developer
+            <small>Hi, I'm Daniel</small>
+
+            <!-- content Icons -->
+            <div class="header_icons">
+                <div class="icon">
+                    <a href="https://github.com/DanielsWebDevelopment">
+                        <span><i class="fa-brands fa-github"></i></span>
+                    </a>
+                </div>
+                <div class="icon">
+                    <a href="https://www.linkedin.com/in/daniel-macdonald-ba2257195/">
+                        <span><i class="fa-brands fa-linkedin"></i></span>
+                    </a>
+                </div>
+                <div class="icon">
+                    <a href="./index.html">
+                        <span><i class="fa-solid fa-envelope"></i></span>
+                    </a>
+                </div>
+            </div>
+        </h1>
+
+        <div class="welcome_message">
+            <small>Welcome</small>
+        </div>
+    </header>
+
+    <!-- ========= About Section -->
+    <section class="about" id="about">
+        <div class="about-items">
+            <div class="about_item">
+                <div class="about-top">
+                    <small>About</small>
+                    <p>About Me</p>
+                </div>
+                <div class="about-bottom">
+                    <p>Hi, I'm Daniel! I'm a full stack developer raised in Vancouver Canada, British Columbia.
+                        Throughout the years, I have always had a desire in learning how to program and develop unique web applications.
+                        While I'm always ready to learn new skills, I also have constant interest in obtaining the knowledge I need in order to grasp and understand 
+                        programming concepts and Technologies. At an early age, I grew up skateboarding and over the years I decided to learn how to program!
+                        From watching movies that inspired me to learn, It's was the interest I had in the end that drove me to lean in that direction. 😊
+
+                    </p>
+                </div>
+            </div>
+            <div class="about_item">
+                <div class="about-top">
+                    <small>Technologies Used</small>
+                    <p>Technologies</p>
+                </div>
+                <div class="about-bottom-stacks">
+                    <ul class="frontend">
+                        <small>FrontEnd</small>
+                        <li class="about-item">JavaScript</li>
+                        <li class="about-item">HTML5</li>
+                        <li class="about-item">CSS3</li>
+                        <li class="about-item">React JS</li>
+                    </ul>
+                    <ul class="backend">
+                        <small>BackEnd</small>
+                        <li class="about-item">Node Js</li>
+                        <li class="about-item">Express</li>
+                        <li class="about-item">Axios</li>
+                        <li class="about-item">MySQL</li>
+                        <li class="about-item">Firebase</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="about_item">
+                <div class="about-top">
+                    <small>Extended</small>
+                    <p>Extended Knowledge</p>
+                </div>
+                <div class="about-bottom">
+                    <ul class="extended">
+                        <li class="extended-item">Google Search Console - Metrics & preformance</li>
+                        <li class="extended-item">Netlify - Frontend Deployment</li>
+                        <li class="extended-item">DigitalOcean - Backend Deployment </li>
+                        <li class="extended-item">Render - Backend Deployment</li>
+                        <li class="extended-item">Cloudinary - Image Optimization</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- ========= Projects Section -->
+    <section class="projects" id="projects">
+        <div class="p-top">
+            <small>Projects</small>
+            <h2>My Projects</h2> 
+        </div>
+        <div id="projects__container" class="projects__container">
+            <!-- ========== Dynamically displayed. -->
+        </div> 
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="contact-top">
+            <small>Contact</small>
+            <h2>Contact Me</h2>
+        </div>
+
+        <article class="contact_container" id="contact">
+            <form method="" action="" class="form" id="form">
+                <div class="form-group">
+                    <label for="name" class="form-label">Name</label>
+                    <input type="text" name="email" placeholder="Please enter name ..." required>
+                </div>
+                <div class="form-group">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea name="message" id="message" rows="3" cols="8" required>Send a Message!</textarea>
+                </div>
+                <button type="submit" class="submit-button">Send Message</button>
+            </form>
+        </article>
+    </section>
+
+    <footer class="footer" id="footer">
+        <article class="footer_info">
+            <div class="row">
+                <p>Portfolio</p>
+                <div class="col">
+                    <ul class="col-items">
+                        <li class="col-item">
+                            <a href="./index.html">Home</a>
+                        </li>
+                        <li class="col-item">
+                            <a href="#about">About</a>
+                        </li>
+                        <li class="col-item">
+                            <a href="#projects">Projects</a>
+                        </li>
+                        <li class="col-item">
+                            <a href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <p>Socials</p>
+                <div class="col">
+                    <ul class="col-items">
+                        <li class="col-item">
+                            <a href="https://github.com/DanielsWebDevelopment">
+                                <i class="fa-brands fa-github"></i>
+                            </a>
+                        </li>
+                        <li class="col-item">
+                            <a href="https://www.linkedin.com/in/daniel-macdonald-ba2257195/">
+                                <i class="fa-brands fa-linkedin"></i>
+                            </a>
+                        </li>
+                        <li class="col-item">
+                            <a href="#"><i class="fa-solid fa-envelope"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <small>Copyright &copy; 2024, All rights reserved.</small>
+            </div>
+        </article>
+    </footer>
+    <script src="../scrips/scripts.js"></script>
+</body>
+</html>
