@@ -1,7 +1,7 @@
 const projects = [
     {   
         id: 1,
-        projectImage0: '/assets/projectimage2.png',
+        projectImage0: '/public/assets/projectimage2.png',
         projectImage1: '/assets/userflow.jpg',
         name: 'Smoothie Savor',
         desc: 'Smoothie Savor is a dynamic web application tailored for smoothie lovers. It features a diverse collection of unique smoothie recipes and enables users to craft their own personalized smoothie creations.',
@@ -10,7 +10,7 @@ const projects = [
     },
     {
         id: 2,
-        projectImage0: '/assets/projectimage1.png',
+        projectImage0: '/public/assets/projectimage1.png',
         name: 'Diamondhead Construction',
         desc: 'Diamondhead Construction is a company specializing in carpentry and home renovation services.',
         githubLink: 'https://github.com/DanielsWebDevelopment/Diamondhead-Construction',
@@ -18,7 +18,7 @@ const projects = [
     },
     {
         id: 3,
-        projectImage0: '/assets/projectimage3.png',
+        projectImage0: '/public/assets/projectimage3.png',
         name: 'SprintSphere',
         desc: 'Welcome to Sprintsphere! This is a mock e-commerce site designed with a focus on building a functional shopping cart. Sprintsphere offers a range of products aimed at enhancing your running capabilities. Whether your a seasoned marathon runner or just getting started with jogging, Sprintsphere has something for everyone.',
         githubLink: 'https://github.com/DanielsWebDevelopment/SprintSphere-Shop-landing-page',
@@ -26,7 +26,7 @@ const projects = [
     },
     {
         id: 4,
-        projectImage0: '/assets/projectimage4.png',
+        projectImage0: '/public/assets/projectimage4.png',
         name: 'Tresbien Food Delivery',
         desc: 'Welcome to TresBien, your go-to restaurant web app for exploring menus, making reservations, and experiencing culinary delight!',
         githubLink: 'https://github.com/DanielsWebDevelopment/Restaurant-landing-page---TresBien',
